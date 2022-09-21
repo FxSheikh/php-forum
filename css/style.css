@@ -1,0 +1,423 @@
+/* Stying for the Overwatch Forum*/
+
+.login-background {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-image: url(../images/login-background.jpg);
+}
+
+.register-background {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-image: url(../images/register-background.jpg);
+}
+
+.profile-background {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-image: url(../images/profile-background.jpg);
+}
+
+.admin-background {
+  background-attachment: fixed;
+  /*background-position: center;*/
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-image: url(../images/admin-background.jpg);
+  background-position: right 30px top;
+}
+
+body.admin-background {
+  background-color: #CACACA;
+}
+
+#reg-h1,#prof-h1,#cat-h1,#posts-h1 {
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 40px;
+  color: #000;
+}
+
+.navbar-brand>img {
+  max-height: 150%;
+  height: 150%;
+  width: auto;
+  margin: 0 auto;
+}
+
+.form-control[readonly]{
+  background-color: #FFF;
+}
+
+#password-login, #username-login {
+  background: #0E0E0E;
+  color: #FFFFFF;
+}
+
+body #login-form,#register-form,#profile-form,#create-cat-form {
+  min-width: 290px;
+  max-width: 500px;
+}
+
+body #login-form,#register-form,#profile-form,#create-cat-form {
+  margin: 0 auto; 
+  padding: 0 20px; 
+}
+
+#login-button,#register-button,#profile-button,#create-cat-button {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc; 
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#000;
+  height: 1px;
+}
+
+.reg-input-background,.profile-input-background,.cat-input-background {
+  background-color: #FFFFFF;
+  border-color: #66afe9;
+  /*box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);*/
+}
+
+#password-label,#username-label{
+  color: #FFFFFF;
+  font-weight: 300;
+}
+
+#already-registered {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#login-error,#reply-error,#category-error {
+  color: red;
+  font-weight: normal;
+  text-align: center;
+}
+
+#disable-message {
+  color: green;
+  font-weight: normal;
+  text-align: center;
+}
+
+#profile-update-message {
+  color: green;
+  font-weight: normal;
+  text-align: center;  
+}
+
+.homepage-background, .posts-background { 
+  background:
+  /*url(../images/background-overwatch-top.jpg) center -200px no-repeat,*/
+  url(../images/background-overwatch-repeat.jpg) center -200px repeat-y #1f2326;  
+}
+
+.homepage-header {
+  background-image: url(../images/overwatch-glass-crop.jpg);
+  background-size: auto;
+  height: 401px;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #000;
+  position: relative; 
+  margin-top: -20px;
+}
+
+.navbar {
+  /*margin-bottom: 0;*/
+}
+
+.welcome-container {
+  position: relative;
+  top: 50px;
+  right: 30px;
+}
+
+.welcome-text {
+  font-family: 'Anton', sans-serif;
+  /*color: #405275;*/
+  font-size: 34px;
+  /*text-shadow: 0 0 5px #d9ddec;*/
+  text-indent: 50px;
+  font-style: italic;
+}
+
+.catname {
+  color: #FFFFFF;
+}
+
+.del-cats{
+  margin-top: 30px;
+  margin-bottom: 25px;
+}   
+
+#forum_card_desc {
+  color: #f7931e;   
+  min-height: 40px;
+} 
+
+#posts-header {
+  color: #FFFFFF;
+  font-size: 35px;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 2px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#posts-footer {
+  font-family: 'Anton', sans-serif;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 27px;
+}
+
+#posts-form-container {
+  /*border-bottom: 2px solid rgba(255,255,255,.1); */
+  /*border-top: 2px solid rgba(255,255,255,.1); */
+  margin-top: 30px; 
+
+}
+
+.reply-button {
+  background-color: #f7931e;
+  border-color: #f7931e;
+  box-shadow: 0 0 1px 1px #000;
+  color: #fff;
+  /*padding: 10px;*/
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: .125rem; 
+  border-width: 2px;
+  font-weight: bold;
+  /*width: 100%;*/
+  
+}
+
+#textarea-posts {
+  height: 18.75rem;
+  /*width: 0%;*/
+  font-size: 17px;
+  min-width: 100%;
+  max-width: 100%;
+  /*display: block;*/
+  /*resize: none;*/
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.textarea-input {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 73.75rem;
+  margin-bottom: 50px;
+}
+
+#username_span {
+  text-transform: none;
+  font-style: normal; 
+  letter-spacing: 0;
+}
+
+#login-post-button{
+  background-color: #f7931e;
+  border-color: #f7931e;
+  box-shadow: 0 0 1px 1px #000;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: .125rem; 
+  border-width: 2px;
+  font-weight: bold;
+}
+
+.LoginPlaceholder-details{
+  background-color: transparent;
+  border: 2px solid rgba(255,255,255,.3);
+  /* border-radius: 3px; */
+  color: rgba(255,255,255,.7);
+  /*margin-top: 2.5em;*/
+  max-width: 73.75rem;
+  padding: 3rem 0;
+  text-align: center;  
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  font-size: 17px;
+  padding-bottom: 2.5em;
+  margin: 30px auto;
+  margin-bottom: 25px;
+}
+
+.login-message {
+  padding: 40px;
+  width: 100%;
+  font-weight: bolder;
+  color: white;
+  font-size: 1.2em;
+}
+
+.posts-container {
+  /*flex means it is a block container*/
+  display: flex;
+  /*flex items are placed left to right*/
+  flex-direction: row;
+  min-height: 150px;
+  background-color: transparent;
+  line-height: 1.5;
+  border: 2px solid rgba(255,255,255,.3);
+  border-bottom: 0;
+}
+
+div.posts-container:nth-last-child(2)   {
+  border-bottom: 2px solid rgba(255,255,255,.3);
+}
+
+div.search-lists:nth-last-child(2)   {
+  border-bottom: 0;
+}
+
+.search-lists:last-child {
+  border-bottom: 2px solid rgba(255,255,255,.3);
+}
+
+.post-content {
+  width: 83%;
+  color: wheat;
+  font-size: 19px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+#posts-message {
+  color: green;
+  margin-bottom: 30px;
+}
+
+.post-date-time {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.author-name {
+  margin: 15px auto;
+}
+
+.number-posts {
+  margin-left: auto;
+  margin-right: auto;
+}
+.post-author{
+  width: 17%;
+  color: wheat;
+  font-size: 19px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#search-input {
+  background: black;
+  font-size: larger;
+  font-weight: bold;
+}
+
+#search-result,#posts-result {
+  color: white;
+}
+
+#list-result {
+  color: red;
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 100%;
+  min-height: 92.5vh;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #222222;
+  color: white;
+  /*color: #9d9d9d;*/
+  font-weight: bold;
+  margin-top: 25px;
+  /*text-align: center;*/
+  /*text-transform: uppercase;*/
+  display:flex;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+    
+}
+
+.posts-container:nth-child(3) .post-content, .posts-container:nth-child(3) .post-author{
+  color: #F0F8FF;
+}
+
+.posts-container.search-lists:nth-child(3) .post-content, .posts-container.search-lists:nth-child(3) .post-author{
+  color: wheat;
+}
+
+#sticky-footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.align-delete {
+  text-align: center;
+}
+@media only screen and (max-width:768px){
+  .posts-container {
+    flex-direction:column;
+  }
+  .post-author {
+    width: 100%;
+  }
+  .post-content {
+    width: 100%;
+  }
+  
+  .reply-button {
+    width: 100%;
+  }
+  
+  .post-date-time {
+    text-align: center;
+  }
+  
+  .cat-name {
+    text-align: center;
+  }
+  
+}
+
+.cat-name {
+  margin-top: 15px;
+  color: red;
+}
